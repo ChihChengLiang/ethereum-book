@@ -43,7 +43,7 @@ This book is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 
 ## Contributing
 
-If you find any errors or typos in the book, or if you have suggestions for improvements, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/Ethereum-Protocol-Basics) for this book. All contributions are welcome and appreciated.
+If you find any errors or typos in the book, or if you have suggestions for improvements, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/ChihChengLiang/ethereum-book) for this book. All contributions are welcome and appreciated.
 
 ## Author
 
