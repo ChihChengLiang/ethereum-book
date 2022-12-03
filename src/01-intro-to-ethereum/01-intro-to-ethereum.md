@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum and blockchain technology, and explain how they differ from traditional systems. We will also discuss the main characteristics of Ethereum and the applications that it enables.
 
+![](../images/DALL·E%202022-12-03%2022.17.36%20-%20A%20rubber%20duck%20floating%20on%20a%20calm%20blue%20ocean.png)
+
 ## What is Ethereum?
 
 Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference. These apps run on a custom built blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property.

@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum networks and consensus mechanisms, and explain their role and significance in the Ethereum ecosystem. We will also discuss the different types of networks and mechanisms that are used by Ethereum, and the challenges and opportunities that they present.
 
+![](../images/DALL·E%202022-12-03%2022.20.50%20-%20A%20rubber%20duck%20wearing%20a%20headset%20and%20conducting%20an%20orchestra.png)
+
 ## What are Ethereum networks and consensus mechanisms?
 
 Ethereum networks are the decentralized networks that run the Ethereum blockchain, and enable the execution of smart contracts and the transfer of value. The Ethereum network consists of nodes that run the Ethereum software, and communicate with each other to validate and confirm transactions and blocks.

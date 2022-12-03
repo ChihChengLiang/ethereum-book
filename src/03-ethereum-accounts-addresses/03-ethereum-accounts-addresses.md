@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum accounts and addresses, and explain their role and significance in the Ethereum ecosystem. We will also discuss the differences between external and contract accounts, and the security measures that are used to protect them.
 
+![](../images/DALL·E%202022-12-03%2022.19.01%20-%20A%20rubber%20duck%20wearing%20a%20graduation%20cap%20and%20holding%20a%20diploma.png)
+
 ## What are Ethereum accounts and addresses?
 
 Ethereum accounts are entities that can hold Ether, interact with other accounts and smart contracts, and execute transactions on the Ethereum network. An Ethereum account has the following main components:

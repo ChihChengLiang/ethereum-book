@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce the Ethereum protocol, and explain its main components and features. We will also discuss the differences between the different Ethereum networks and their consensus mechanisms.
 
+![](../images/DALL·E%202022-12-03%2022.22.16%20-%20A%20rubber%20duck%20holding%20a%20pen%20and%20a%20contract.png)
+
 ## What is the Ethereum protocol?
 
 The Ethereum protocol is the set of rules and standards that define how Ethereum operates and how its participants interact with each other. This protocol consists of a number of different components, including the Ethereum Virtual Machine (EVM), the Ethereum state, the Ethereum transaction model, and the Ethereum consensus mechanism.

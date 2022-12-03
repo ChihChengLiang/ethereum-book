@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum mining and block creation, and explain their role and significance in the Ethereum ecosystem. We will also discuss the different consensus mechanisms that are used by Ethereum, and the rewards and incentives that are provided to miners.
 
+![](../images/DALL·E%202022-12-03%2022.20.19%20-%20A%20rubber%20duck%20holding%20a%20pickaxe%20and%20a%20block%20of%20gold.png)
+
 ## What is Ethereum mining and block creation?
 
 Ethereum mining and block creation are the processes by which new blocks are added to the Ethereum blockchain, and transactions are validated and confirmed. These processes are essential for maintaining the security, integrity, and decentralization of the Ethereum network.

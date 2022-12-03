@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum scalability and upgrades, and explain their role and significance in the Ethereum ecosystem. We will also discuss the different scalability solutions and upgrade mechanisms that are used by Ethereum, and the challenges and opportunities that they present.
 
+![](../images/DALL·E%202022-12-03%2022.21.33%20-%20A%20rubber%20duck%20holding%20a%20rocket%20and%20a%20satellite.png)
+
 ## What is Ethereum scalability and upgrades?
 
 Ethereum scalability is the ability of the Ethereum network and blockchain to handle a large number of transactions and users, without compromising on performance, security, or decentralization. Ethereum scalability is a critical issue, as the adoption and use of Ethereum are growing, and the demand for faster and cheaper transactions is increasing.

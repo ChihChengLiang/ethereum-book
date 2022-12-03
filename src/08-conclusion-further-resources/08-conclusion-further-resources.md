@@ -6,6 +6,8 @@ We hope that this book has been useful and informative, and that it has provided
 
 In this final chapter, we will summarize the main points and highlights of the book, and provide some further resources and references that you can use to continue your journey into the world of Ethereum.
 
+![](../images/DALL·E%202022-12-03%2022.22.46%20-%20A%20rubber%20duck%20holding%20a%20trophy%20and%20celebrating.png)
+
 ## Summary of the book
 
 In this book, we have discussed the following main topics and concepts of the Ethereum protocol layer:

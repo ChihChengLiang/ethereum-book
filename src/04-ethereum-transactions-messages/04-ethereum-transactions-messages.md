@@ -2,6 +2,8 @@
 
 In this chapter, we will introduce Ethereum transactions and messages, and explain their role and significance in the Ethereum ecosystem. We will also discuss the structure and components of transactions and messages, and the fees and limitations that apply to them.
 
+![](../images/DALL·E%202022-12-03%2022.19.49%20-%20A%20rubber%20duck%20holding%20a%20briefcase%20and%20a%20smartphone.png)
+
 ## What are Ethereum transactions and messages?
 
 Ethereum transactions and messages are the fundamental building blocks of the Ethereum network, and are used to transfer value, interact with smart contracts, and execute functions on the Ethereum Virtual Machine (EVM).
