@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Rust
-        uses: actions/setup-rust@v1
+        uses: actions-rs/toolchain@v1
       - name: Install mdBook
         run: cargo install mdbook
       - name: Build the book
