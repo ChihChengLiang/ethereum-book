@@ -1,5 +1,7 @@
 # Ethereum Protocol Basics: A Beginner's Guide
 
+
+
 This book is a beginner's guide to the Ethereum protocol and its main components. It covers the following topics:
 
 1. Introduction to Ethereum and blockchain technology
@@ -10,6 +12,10 @@ This book is a beginner's guide to the Ethereum protocol and its main components
 6. Ethereum networks and consensus mechanisms
 7. Ethereum scalability and upgrades
 8. Conclusion and further resources
+
+## Warning 🚨
+
+This book is a product of ChatGPT, a large language model trained by OpenAI. The information provided in this book may be inaccurate, incomplete, or misleading 🤔, and should not be used as a reference or source of information 🤓. The user should always verify and validate the information provided in this book 🧐, and should seek the advice and guidance of qualified experts before acting on it 💡.
 
 ## Getting started
 
