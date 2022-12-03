@@ -80,7 +80,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../01-intro-to-ethereum/01-intro-to-ethereum.html"><strong aria-hidden="true">1.</strong> Introduction to Ethereum and blockchain technology</a></li><li class="chapter-item expanded "><a href="../02-ethereum-protocol/02-ethereum-protocol.html" class="active"><strong aria-hidden="true">2.</strong> The Ethereum protocol</a></li><li class="chapter-item expanded "><a href="../03-ethereum-accounts-addresses/03-ethereum-accounts-addresses.html"><strong aria-hidden="true">3.</strong> Ethereum accounts and addresses</a></li><li class="chapter-item expanded "><a href="../04-ethereum-transactions-messages/04-ethereum-transactions-messages.html"><strong aria-hidden="true">4.</strong> Ethereum transactions and messages</a></li><li class="chapter-item expanded "><a href="../05-ethereum-mining-block-creation/05-ethereum-mining-block-creation.html"><strong aria-hidden="true">5.</strong> Ethereum mining and block creation</a></li><li class="chapter-item expanded "><a href="../06-ethereum-networks-consensus-mechanisms/06-ethereum-networks-consensus-mechanisms.html"><strong aria-hidden="true">6.</strong> Ethereum networks and consensus mechanisms</a></li><li class="chapter-item expanded "><a href="../07-ethereum-scalability-upgrades/07-ethereum-scalability-upgrades.html"><strong aria-hidden="true">7.</strong> Ethereum scalability and upgrades</a></li><li class="chapter-item expanded "><a href="../08-conclusion-further-resources/08-conclusion-further-resources.html"><strong aria-hidden="true">8.</strong> Conclusion and further resources</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../00-warning/00-warning.html"><strong aria-hidden="true">1.</strong> Warning and Limitations</a></li><li class="chapter-item expanded "><a href="../01-intro-to-ethereum/01-intro-to-ethereum.html"><strong aria-hidden="true">2.</strong> Introduction to Ethereum and blockchain technology</a></li><li class="chapter-item expanded "><a href="../02-ethereum-protocol/02-ethereum-protocol.html" class="active"><strong aria-hidden="true">3.</strong> The Ethereum protocol</a></li><li class="chapter-item expanded "><a href="../03-ethereum-accounts-addresses/03-ethereum-accounts-addresses.html"><strong aria-hidden="true">4.</strong> Ethereum accounts and addresses</a></li><li class="chapter-item expanded "><a href="../04-ethereum-transactions-messages/04-ethereum-transactions-messages.html"><strong aria-hidden="true">5.</strong> Ethereum transactions and messages</a></li><li class="chapter-item expanded "><a href="../05-ethereum-mining-block-creation/05-ethereum-mining-block-creation.html"><strong aria-hidden="true">6.</strong> Ethereum mining and block creation</a></li><li class="chapter-item expanded "><a href="../06-ethereum-networks-consensus-mechanisms/06-ethereum-networks-consensus-mechanisms.html"><strong aria-hidden="true">7.</strong> Ethereum networks and consensus mechanisms</a></li><li class="chapter-item expanded "><a href="../07-ethereum-scalability-upgrades/07-ethereum-scalability-upgrades.html"><strong aria-hidden="true">8.</strong> Ethereum scalability and upgrades</a></li><li class="chapter-item expanded "><a href="../08-conclusion-further-resources/08-conclusion-further-resources.html"><strong aria-hidden="true">9.</strong> Conclusion and further resources</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -142,6 +142,49 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="the-ethereum-protocol"><a class="header" href="#the-ethereum-protocol">The Ethereum protocol</a></h1>
+<p>In this chapter, we will introduce the Ethereum protocol, and explain its main components and features. We will also discuss the differences between the different Ethereum networks and their consensus mechanisms.</p>
+<h2 id="what-is-the-ethereum-protocol"><a class="header" href="#what-is-the-ethereum-protocol">What is the Ethereum protocol?</a></h2>
+<p>The Ethereum protocol is the set of rules and standards that define how Ethereum operates and how its participants interact with each other. This protocol consists of a number of different components, including the Ethereum Virtual Machine (EVM), the Ethereum state, the Ethereum transaction model, and the Ethereum consensus mechanism.</p>
+<h2 id="the-ethereum-virtual-machine-evm"><a class="header" href="#the-ethereum-virtual-machine-evm">The Ethereum Virtual Machine (EVM)</a></h2>
+<p>The Ethereum Virtual Machine (EVM) is a decentralized and Turing-complete virtual machine that executes the smart contracts running on the Ethereum network. The EVM allows developers to write smart contracts in high-level programming languages, such as Solidity, and then compile them into EVM bytecode, which can be executed by the EVM on the Ethereum network.</p>
+<p>The EVM provides a secure and reliable execution environment for smart contracts, ensuring that they run exactly as intended without any possibility of downtime, censorship, fraud, or third-party interference. It also provides a common execution environment for all Ethereum participants, allowing them to interoperate and exchange information and value.</p>
+<h2 id="the-ethereum-state"><a class="header" href="#the-ethereum-state">The Ethereum state</a></h2>
+<p>The Ethereum state is a global state that records the current state of all the smart contracts and accounts on the Ethereum network. This state is updated in each block of the Ethereum blockchain, and can be accessed by all the nodes of the network.</p>
+<p>The Ethereum state consists of two main data structures:</p>
+<ul>
+<li>The Ethereum world state: This data structure stores the current state of all the smart contracts and accounts on the Ethereum network, including their balances, storage, and code.</li>
+<li>The Ethereum account state: This data structure stores the current state of all the Ethereum accounts, including their addresses, balances and nonce values. The nonce value is a counter that is incremented for each transaction sent from an account, and is used to prevent transaction replay attacks.</li>
+</ul>
+<p>The Ethereum state is immutable, meaning that it cannot be altered or deleted once it is written. This ensures the integrity and security of the data, and allows for a verifiable and auditable history of transactions.</p>
+<h2 id="the-ethereum-transaction-model"><a class="header" href="#the-ethereum-transaction-model">The Ethereum transaction model</a></h2>
+<p>The Ethereum transaction model defines how transactions are created, signed, and broadcast on the Ethereum network. A transaction is a message that is sent from an Ethereum account to another account, or to a smart contract. It contains the following information:</p>
+<ul>
+<li>The sender and recipient addresses.</li>
+<li>The amount of Ether to be transferred.</li>
+<li>The data payload, which can be used to call a function on a smart contract or to pass data to it.</li>
+<li>The transaction nonce, which is used to prevent transaction replay attacks.</li>
+<li>The transaction fee, which is paid to the miner who includes the transaction in a block.</li>
+</ul>
+<p>To create a transaction, the sender must sign it with their private key, using the Ethereum signature algorithm (ECDSA). This ensures that only the owner of the private key can create transactions from the corresponding account.</p>
+<p>Once a transaction is signed, it can be broadcast to the Ethereum network, where it is propagated to all the nodes and added to the transaction pool. Miners then select the transactions from the pool and include them in the next block that they are mining.</p>
+<h2 id="the-ethereum-consensus-mechanism"><a class="header" href="#the-ethereum-consensus-mechanism">The Ethereum consensus mechanism</a></h2>
+<p>The Ethereum consensus mechanism is the mechanism by which the Ethereum network reaches consensus on the state of the Ethereum blockchain. This mechanism ensures that all the nodes in the network agree on the same blockchain state, and that the blockchain is secure and resilient to malicious attacks.</p>
+<p>The Ethereum consensus mechanism uses the proof-of-work (PoW) algorithm, where miners compete to solve a computationally difficult puzzle in order to create a new block and earn a reward. This ensures that the blocks are added to the blockchain in a secure and decentralized manner, and that the network remains decentralized and resistant to attacks.</p>
+<p>However, proof-of-work has a number of drawbacks, including high energy consumption and potential centralization of mining power. To address these issues, Ethereum is planning to switch to a proof-of-stake (PoS) consensus mechanism, where the right to create a new block is determined by the amount of Ether an account holds. This is expected to reduce the energy consumption and centralization risks of the Ethereum network.</p>
+<h2 id="ethereum-networks"><a class="header" href="#ethereum-networks">Ethereum networks</a></h2>
+<p>There are several different Ethereum networks, each with its own consensus mechanism, block time, and block reward. The most important networks are:</p>
+<ul>
+<li>The Ethereum mainnet: This is the main Ethereum network, where real Ether is used and transactions have real economic value. This network uses the proof-of-work consensus mechanism, and has a block time of 15 seconds and a block reward of 2 Ether.</li>
+<li>The Ethereum testnets: These are networks that are used for testing and development purposes. They use fake Ether, and transactions do not have real economic value. The most important testnets are:
+<ul>
+<li>Rinkeby: This is a proof-of-authority testnet, where the validators are selected by the Ethereum Foundation. It has a block time of 15 seconds and no block reward.</li>
+<li>Ropsten: This is a proof-of-work testnet, where miners compete to solve a computationally difficult puzzle in order to create a new block. It has a block time of 15 seconds and a block reward of 2 Ether.</li>
+</ul>
+</li>
+<li>The Ethereum private networks: These are networks that are created and managed by individual organizations or groups. They can use any consensus mechanism and configuration, and can be used for private or permissioned transactions.</li>
+</ul>
+<h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
+<p>In this chapter, we have introduced the Ethereum protocol and its main components, including the EVM, the Ethereum state, the Ethereum transaction model, and the Ethereum consensus mechanism. We have also discussed the differences between the Ethereum networks and their consensus mechanisms. In the next chapters, we will explore each of these components in more detail, and discuss how they work together to enable the applications of Ethereum.</p>
 
                     </main>
 
