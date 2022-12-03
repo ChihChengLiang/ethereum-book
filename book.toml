@@ -1,0 +1,6 @@
+[book]
+authors = ["ChihChengLiang"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Ethereum Protocol Basics: A Beginner's Guide"
