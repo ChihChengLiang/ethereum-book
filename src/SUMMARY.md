@@ -9,3 +9,4 @@
 6. [Ethereum networks and consensus mechanisms](./06-ethereum-networks-consensus-mechanisms/06-ethereum-networks-consensus-mechanisms.md)
 7. [Ethereum scalability and upgrades](./07-ethereum-scalability-upgrades/07-ethereum-scalability-upgrades.md)
 8. [Conclusion and further resources](./08-conclusion-further-resources/08-conclusion-further-resources.md)
+9. [Important Primitive Data Types in Ethereum](./09-primitives/09-primitives.md)
