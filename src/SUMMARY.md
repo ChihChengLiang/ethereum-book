@@ -1,5 +1,6 @@
 # Summary
 
+0. [Warning and Limitations](./00-warning/00-warning.md)
 1. [Introduction to Ethereum and blockchain technology](./01-intro-to-ethereum/01-intro-to-ethereum.md)
 2. [The Ethereum protocol](./02-ethereum-protocol/02-ethereum-protocol.md)
 3. [Ethereum accounts and addresses](./03-ethereum-accounts-addresses/03-ethereum-accounts-addresses.md)
